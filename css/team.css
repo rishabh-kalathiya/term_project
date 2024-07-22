@@ -1,0 +1,95 @@
+
+.hero {
+    position: relative;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.hero .hero-img {
+    position: relative;
+}
+
+.hero .hero-img img {
+    width: 100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.hero .hero-content {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.hero .hero-content p {
+    color: #ffffff;
+}
+
+.hero .hero-content h1 {
+    color: #e6bfbf;
+}
+
+/* Heading font sizes and colors */
+h1,
+h2,
+h3 {
+    font-size: 2.5rem;
+}
+
+h1 {
+    color: #007bff;
+    /* Change color of one heading */
+}
+
+/* List items formatting */
+ul {
+    padding-left: 20px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    /* Reduced font size */
+    color: #c7c7c7;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #56bdc6;
+}
+
+/* product styling */
+.product {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product .product-img {
+    flex: 50%
+}
+.product .product-img img {
+    width: 100%
+}
+
+.product .product-info {
+    flex: 50%;
+}
+
+#product-of-the-week h1{
+    color: #314864;
+}
+
+.product .product-info h2{
+    font-size: 2rem;
+}
+
+h2 {
+    color: rgba(50,50,50,0.75);
+}

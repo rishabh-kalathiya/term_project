@@ -1,0 +1,229 @@
+/* styles.css */
+
+/* Set background color for the entire website */
+body {
+    background-color: #314864;
+    font-family: Arial, sans-serif;
+    /* Default font family */
+}
+
+/* Container styling to center content and set width */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* Center the container */
+    padding: 20px;
+    color: rgba(50, 50, 50, 0.75);
+}
+
+/* navbar styling */
+.navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e6bfbf;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Header styling */
+header img {
+    width: 100px;
+    aspect-ratio: 1;
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px #ccc;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: #eee;
+}
+
+/* Main content styling */
+main {
+    display: block;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    position: relative;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    width: 70%;
+    height: 30%;
+    overflow: hidden;
+}
+
+.hero .hero-img {
+    position: relative;
+}
+
+.hero .hero-img img {
+
+    width: 100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: contain;
+}
+
+h2 {
+   text-align: center; 
+}
+
+.hero .hero-content {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.hero .hero-content p {
+    color: #ffffff;
+}
+
+.hero .hero-content h1 {
+    color: #e6bfbf;
+}
+
+/* Heading font sizes and colors */
+h1,
+h2,
+h3 {
+    font-size: 2.5rem;
+}
+
+h1 {
+    color: #007bff;
+    /* Change color of one heading */
+}
+
+/* List items formatting */
+ul {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    /* Reduced font size */
+    color: #c7c7c7;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #56bdc6;
+}
+
+/* product styling */
+.product {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product .product-img {
+    flex: 50%
+}
+.product .product-img img {
+    width: 100%
+}
+
+.product .product-info {
+    flex: 50%;
+}
+
+#product-of-the-week h1{
+    color: #314864;
+}
+
+.product .product-info h2{
+    font-size: 2rem;
+}
+
+/* Media queries */
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav li {
+        margin-bottom: 10px;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .tablet, .desktop {
+        display: none;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    .mobile, .desktop {
+        display: none;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    .desktop {
+        display: block;
+    }
+
+    .mobile, .tablet {
+        display: none;
+    }
+}
