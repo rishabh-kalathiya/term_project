@@ -71,6 +71,13 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.container{
+h1{
+    font-family: PlayfairDisplay;
+    font-size: 50px;
+}
+}
+
 .hero {
     position: relative;
     background-color: black;
@@ -99,18 +106,23 @@ main {
 }
 
 .hero .hero-content h1 {
+    font-family: PlayfairDisplay;
+    font-size: 50px;
     color: #e6bfbf;
 }
 
 /* Heading font sizes and colors */
 h1,
-h2,
+h2 {
+    color: #f1ebeb;
+    font-size: x-large;
+}
 h3 {
     font-size: 2.5rem;
 }
 
 h1 {
-    color: #007bff;
+    color: rgba(203, 199, 199, 0.75);
     /* Change color of one heading */
 }
 
@@ -155,9 +167,15 @@ footer a {
 }
 
 #product-of-the-week h1{
-    color: #314864;
+    color: rgba(50, 50, 50, 0.75);
 }
 
 .product .product-info h2{
     font-size: 2rem;
+    color: #333;
+}
+
+/*faq styling*/
+.faq-section{
+    color: rgba(50, 50, 50, 0.75);
 }

@@ -1,0 +1,197 @@
+/* contact.css */
+
+/* Set background color for the entire website */
+body {
+    background-color: #314864;
+    font-family: Arial, sans-serif; /* Default font family */
+}
+
+/* Container styling to center content and set width */
+.container {
+    width: 80%;
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e6bfbf;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Header styling */
+header img {
+    width: 100px;
+    aspect-ratio: 1;
+}
+
+/* Navigation styling */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px #ccc;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: #eee;
+}
+
+/* Main content styling */
+main {
+    display: block;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+form fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form legend {
+    font-size: 1.5rem;
+    color: #7a7777;
+}
+
+form ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: #7a7777;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form button[type="submit"],
+form button[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: white;
+    cursor: pointer;
+}
+
+form button[type="reset"] {
+    background-color: #ccc;
+}
+
+form button[type="submit"]:hover,
+form button[type="reset"]:hover {
+    background-color: #999;
+}
+
+form button[type="reset"]:hover {
+    background-color: #999;
+}
+
+.centered-text{
+    text-align: center;
+
+    color: #3d9da5;
+    font: 900;
+    font-size: 0.8rem; /* Reduced font size */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem; /* Reduced font size */
+    color: #c7c7c7;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #56bdc6;
+}
+
+/* Heading font sizes and colors */
+h1,
+h2,
+h3 {
+    font-size: 2.5rem;
+}
+
+h1 {
+    color: rgba(50, 50, 50, 0.75);
+    text-align: center; /* Change color of one heading */
+    font-family: PlayfairDisplay;
+    font-size: 45px;
+}
+
+/* List items formatting */
+ul {
+    padding-left: 20px;
+}
